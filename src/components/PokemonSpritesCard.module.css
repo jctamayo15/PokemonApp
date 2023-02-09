@@ -1,0 +1,12 @@
+.pokemonSpriteImage {
+    border-radius: 5px;
+    background-color: azure;
+  }
+
+.pokemonSpriteCard {
+    list-style: none;
+    text-align: left;
+    border-radius: 40px;
+    border-color: darkgrey;
+    background-color: rgb(255, 255, 255);
+  }

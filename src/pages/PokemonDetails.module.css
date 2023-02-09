@@ -1,0 +1,37 @@
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: black;
+  background-color: rgb(211, 228, 228);
+}
+
+.col {
+  max-width: 400px;
+  margin: 15px;
+  height: auto;
+  width: 80%;
+}
+
+.pokemonImage {
+  border-radius: 15px;
+}
+
+.pokemonDetails {
+  font-size: 1.1rem;
+}
+
+.firstItem {
+  margin-top: 0;
+}
+
+.pokemonSpritesGrid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 80px);
+  grid-template-rows: auto;
+  gap: 10px;
+  justify-content: center;
+  padding-inline-start: 0px;
+}

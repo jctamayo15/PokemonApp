@@ -1,0 +1,28 @@
+.pokemonCard {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 5px;
+  border-color: darkgrey;
+  background-color: rgb(211, 228, 228);
+}
+
+.pokemonCard:hover {
+  opacity: 0.8;
+}
+
+.pokemonImage {
+  border-radius: 5px;
+  background-color: azure;
+}
+
+.cardInfoText{
+  color: black;
+}
+
+@media (max-width: 560px) {
+  .pokemonImage {
+    width: 90%;
+    height: auto;
+  }
+}

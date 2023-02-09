@@ -1,0 +1,25 @@
+.next,
+.previous {
+padding: 15px 10px;
+border-radius: 6px;
+background: deepskyblue;
+color: white;
+border:0;
+outline: none;
+cursor: pointer;
+width: 100px;
+}
+
+.next{
+    float: right;
+}
+
+.previous{
+    float: left;
+}
+
+.contentBtn{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 40px;
+}
